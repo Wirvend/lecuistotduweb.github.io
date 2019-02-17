@@ -10,15 +10,14 @@
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-125844603-1"></script>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <link rel="icon" type="image/x-icon" href="/assets/images/favicon/favicon.ico">
+        <link rel="icon" type="image/x-icon" href={{"/assets/images/favicon/favicon.ico" | absolute_url}}>
         <title>LeCuistotduWeb | {{ page.title }}</title>
-        <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="stylesheet" href="/assets/css/app.css">
+        <link rel="stylesheet" href={{"/assets/css/app.css" | absolute_url}}>
     </head>
     <body id="top" class="scrollspy">
         <!--[if lt IE 7]>
@@ -44,6 +43,6 @@
         <!-- script js -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
-        <script src="/assets/js/app.js" async defer></script>
+        <script src={{"/assets/js/app.js" | absolute_url}} async defer></script>
     </body>
 </html>
