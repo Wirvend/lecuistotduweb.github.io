@@ -1,0 +1,43 @@
+---
+layout: default
+---
+
+<div class="container">
+
+    <div class="row">
+        <div class="col s12 center m8 offset-m2">
+            <h2 class="header  text_h2 ">portfolio<br>
+                <span class="sub_heading">{{ page.title }}</span>
+            </h2>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col">
+            {{ content }}
+        </div>
+    </div>
+    
+    <div class="row">
+
+        <ul class="tag-list">Tag :
+            {% for tag in page.tags %}
+            <li class="tag red white-text">{{ tag }}</li>
+            {% endfor %}
+        </ul>
+    </div>
+    
+    <hr>
+
+    <div class="row">
+        {% if page.previous.url %}
+            <button class="btn left col s12 m5 l3 project-navigation"><a href="{{ page.previous.url }}" class="white-text">Projet
+            précédent</a></button>
+        {%- endif -%}
+        {% if page.next.url %}
+            <button class="btn right col s12 m5 l3 project-navigation"><a href="{{ page.next.url }}" class="white-text">Projet
+            suivant</a></button>
+        {%- endif -%}
+    </div>
+    
+</div>

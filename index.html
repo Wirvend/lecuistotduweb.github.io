@@ -1,0 +1,212 @@
+---
+title: home
+layout: default
+---
+
+<!--Navigation-->
+<div class="container-fluid">
+    <ul id="mobile-menu" class="side-nav">
+        <li class="sidenav-close"><a href="/" id="logo-container-mobile" class="brand-logo-mobile"><img src="/assets/images/logo/lecuistotduweb-logo-gray.png"
+                    alt="logo le cuistot du web"></a></li>
+        <li class="sidenav-close items"><a href="#about" class="">À propos</a></li>
+        <li class="sidenav-close items"><a href="#work" class="">Réalisations</a></li>
+        <li class="sidenav-close items"><a href="#skill" class="">Services</a></li>
+        <li class="sidenav-close items"><a href="#contact" class="">Contact</a></li>
+        <li class="sidenav-close items">
+            <ul class="list-btn-social">
+                <li>
+                    <a class="waves-effect waves-light social-icon github btn" href="https://www.linkedin.com/in/ga%C3%ABtan-boyron-webdesigner/"
+                        target="blank">
+                        <i class="fa fa-linkedin white-text"></i>
+                    </a>
+                </li>
+                <li>
+                    <a class="waves-effect waves-light social-icon github btn" href="https://github.com/LeCuistotduWeb"
+                        target="blank">
+                        <i class="fa fa-github white-text"></i>
+                    </a>
+                </li>
+                <li>
+                    <a class="waves-effect waves-light social-icon github btn" href="https://www.facebook.com/LeCuistotDuWeb/"
+                        target="blank">
+                        <i class="fa fa-facebook white-text"></i>
+                    </a>
+                </li>
+            </ul>
+        </li>
+    </ul>
+    <div class="navbar-fixed ">
+        <nav id="nav_home" class="">
+            <div class="nav-wrapper">
+                <div class="container">
+                    <a href="/" id="logo-container" class="brand-logo valign-wrapper left"><img src="/assets/images/logo/lecuistotduweb-logo-white.png"
+                            alt="logo le cuistot du web"></a>
+                    <a href="#" id="menu-icon" data-target="mobile-menu" class="button-collapse sidenav-trigger right"><i
+                            class="material-icons">menu</i></a>
+                    <ul class="right hide-on-med-and-down">
+                        <li class="sidenav-close"><a href="#about" class="white-text">À propos</a></li>
+                        <li class="sidenav-close"><a href="#work" class="white-text">Réalisations</a></li>
+                        <li class="sidenav-close"><a href="#skill" class="white-text">Services</a></li>
+                        <li class="sidenav-close"><a href="#contact" class="white-text">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+</div>
+<!--Navigation-->
+
+<!--index banner-->
+    <section class="section valign-wrapper" id="index-banner">
+        <div class="container">
+            <h1 class="text_h center header cd-headline letters type">
+                <span>I Love</span>
+                <span class="cd-words-wrapper waiting">
+                    <b class="is-visible">creating</b>
+                    <b>designing</b>
+                    <b>developing</b>
+                </span>
+            </h1>
+        </div>
+    </section>
+
+    <!-- About me-->
+    <section id="about" class="section scrollspy valign-wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col s12 center m8 l6 offset-m2 offset-l3">
+                    <h2 class="header  text_h2 ">About me<br>
+                        <span class="sub_heading">A propos de moi</span>
+                    </h2>
+                </div>
+            </div>
+            <div class="row valign-wrapper">
+                <div class="col s12 m6 l6 hide-on-small-only">
+                    <div class="img-duo_content">
+                        <img src="/assets/images/gaetan-boyron-photo.jpg" alt="" class="img-duo_item" width="350">
+                        <img src="/assets/images/gaetan-boyron-profile.jpg" alt="" class="img-duo_item-up" width="350">
+                    </div>
+                </div>
+                <div class="col s12 m6 l6">
+                    <p class="text-justify">
+                        Animé par l’envie de travailler en équipe et de développer ma créativité au quotidien, j’ai commencé mon chemin professionnel dans l’univers de la restauration. Si ces valeurs sont toujours primordiales pour moi, j’ai aujourd’hui décidé de me reconvertir et de vivre de ma passion : le monde du digital.
+                    </p>
+
+                    <p class="text-justify"> Toujours en quête de nouvelles compétences et de projets, tant en design
+                        qu’en développement Web, j’ai suivi une première année de formation Web Designer au sein de l’Ecole ARIES de Lyon. J’ai ensuite décidé de poursuivre mon cursus en développement Web à travers la plateforme Openclassrooms.
+                    </p>
+                    <a href="/assets/pdf/cv-gaetan-boyron.pdf" target="_blank" class="downlaod-cv btn col s12 l5 waves-effect waves-light white-text">Mon CV</a>
+                    <a href="/assets/pdf/book-gaetan-boyron.pdf" target="_blank" class="downlaod-book btn col s12 l5 offset-l1 waves-effect waves-light white-text">Mon Book</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Work-->
+    <section class="section scrollspy valign-wrapper" id="work">
+        <div class="container">
+            <h2 class="header text_h2 center">Portfolio<br>
+                <span class="sub_heading"> Dernières réalisations</span>
+            </h2>
+            <div class="row">
+                {%- assign works = site.works | reverse -%}
+                {%- for work in works limit: 6 -%}
+                <!-- worklist -->
+                <div class="col s12 m6 l4">
+                    {%- include work.html -%}
+                </div>
+                {%- endfor -%}
+                <!-- /worklist -->
+            </div>
+            <div class="row center">
+                <a href="/mes-realisations" class="btn waves-effect white-text">Voir plus de réalisations</a>
+            </div>
+            <!-- 
+            <!-- pagination -->
+            <!-- <ul class="pagination center"> -->
+                <!-- <li class="hide"><a href="#!"><i class="material-icons">chevron_left</i></a></li> -->
+                <!-- <li class="active"><a href="#!">1</a></li> -->
+                <!-- <li class="waves-effect"><a href="#!">2</a></li> -->
+                <!-- <li class="waves-effect"><a href="#!">3</a></li> -->
+                <!-- <li class="waves-effect "><a href="#!">4</a></li> -->
+                <!-- <li class="waves-effect"><a href="#!">5</a></li> -->
+                <!-- <li class="waves-effect"><a href="#!"><i class="material-icons">chevron_right</i></a></li> -->
+                <!-- </ul> -->
+            
+            <!-- /pagination -->
+        </div>
+    </section>
+
+    <!-- skill -->
+    <section class="section valign-wrapper scrollspy" id="skill">
+        <div class="container">
+            <div class="row">
+                <h2 class="center header text_h2">Services<br>
+                    <span class="sub_heading">MES COMPÉTENCES</span>
+                </h2>
+            </div>
+            <div class="row">
+                <div class="col s12 m12 l4">
+                    <div class="center promo promo-example">
+                        <i class="material-icons">code</i>
+                        <h5 class="promo-caption">Développement Web</h5>
+                        <p class="light center">HTML5, CSS3, JS, JQuery, Bootstrap, Sass. PHP , SQL, ,Architecture MVC,
+                            Git, Symfony 3/4</p>
+                    </div>
+                </div>
+                <div class="col s12 m12 l4">
+                    <div class="center promo promo-example">
+                        <i class="material-icons">brush</i>
+                        <h5 class="promo-caption">Création graphique</h5>
+                        <p class="light center">Création d’identité visuelle. Design d’interface, expérience utilisateur
+                            (UI/UX design). Design d’application mobile, responsive design.</p>
+                    </div>
+                </div>
+                <div class="col s12 m12 l4">
+                    <div class="center promo promo-example">
+                        <i class="material-icons">desktop_mac</i>
+                        <h5 class="promo-caption">Webdesign</h5>
+                        <p class="light center">Design d’interface, expérience utilisateur (UI/UX design). Design
+                            d’application mobile, responsive design.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- contact -->
+<section class="section scrollspy valign-wrapper" id="contact">
+    <div class="container">
+        <!-- contact -->
+        <h2 class="header text_h2 center">contact<br>
+            <span class="sub_heading">Laissez-moi un message</span></h2>
+        <div class="row">
+            <div class="col l8 offset-l2  s12">
+                <div class="col s12 form-contact">
+                    <form action="https://getsimpleform.com/messages?form_api_token=ce60be1c4d837e311b0b90e0744e4c95" method="POST" id="contactForm">
+                        <div class="row">
+                            <div class="input-field col s12 l6">
+                                <i class="material-icons prefix">account_circle</i>
+                                <label for="contact_name" class="required">Nom</label>
+                                <input type="text" id="contact_name" name="contact[name]" required="required" class="form-control" />
+                            </div>
+                            <div class="input-field col s12 l6">
+                                <i class="material-icons prefix">mail</i>
+                                <label for="contact_email" class="required">Email</label>
+                                <input type="email" id="contact_email" name="contact[email]" required="required" class="form-control" />
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="input-field col s12 ">
+                                <i class="material-icons prefix">editor</i>
+                                <label for="contact_message" class="required">Message</label>
+                                <textarea id="contact_message" name="contact[message]" required="required" class="materialize-textarea form-control"></textarea>
+                            </div>
+                        </div>
+                        <input type="submit" value="Envoyer" class="btn btn-contact-submit waves-effect waves-light red darken-1 right">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

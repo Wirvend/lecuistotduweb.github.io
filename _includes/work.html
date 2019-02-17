@@ -1,0 +1,22 @@
+<div class="card hoverable project">
+    <div class="card-image waves-effect waves-block waves-light">
+        {% if work.image %}
+        <img src="{{ work.image }}" class="activator responsive-img" alt="{{ work.image-alt }}">
+        {% else %}
+        <img src="https://via.placeholder.com/1280x720" class="activator responsive-img" alt="">
+        {% endif %}
+    </div>
+    <div class="card-content">
+        <h3 class="card-title activator grey-text text-darken-4">{{ work.title }}<i class="mdi-navigation-more-vert right"></i></h3>
+    </div>
+    <div class="card-reveal">
+        <span class="card-title grey-text text-darken-4">{{ work.title }}<i class="mdi-navigation-close right"></i></span>
+        {{ work.excerpt }}
+        <ul class="tag-list">Tag :
+            {% for tag in work.tags %}
+            <li class="tag red white-text">{{ tag }}</li>
+            {% endfor %}
+        </ul>
+        <p><a href="{{ work.url }}" class="red-text">Voir le Projet</a></p>
+    </div>
+</div>

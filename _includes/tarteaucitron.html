@@ -1,0 +1,39 @@
+<script type="text/javascript" src="assets/js/plugins/tarteaucitron/tarteaucitron.js"></script>
+<script type="text/javascript">
+    tarteaucitron.init({
+        "privacyUrl": "/privacy",
+        /* Privacy policy url */
+
+        "hashtag": "#tarteaucitron",
+        /* Open the panel with this hashtag */
+        "cookieName": "tartaucitron",
+        /* Cookie name */
+
+        "orientation": "top",
+        /* Banner position (top - bottom) */
+        "showAlertSmall": false,
+        /* Show the small banner on bottom right */
+        "cookieslist": true,
+        /* Show the cookie list */
+
+        "adblocker": false,
+        /* Show a Warning if an adblocker is detected */
+        "AcceptAllCta": true,
+        /* Show the accept all button when highPrivacy on */
+        "highPrivacy": true,
+        /* Disable auto consent */
+        "handleBrowserDNTRequest": false,
+        /* If Do Not Track == 1, accept all */
+
+        "removeCredit": false,
+        /* Remove credit link */
+        "moreInfoLink": false,
+        /* Show more info link */
+        //"cookieDomain": ".my-multisite-domaine.fr" /* Shared cookie for subdomain */
+    });
+    tarteaucitron.user.gtagUa = 'UA-125844603-1';
+    tarteaucitron.user.gtagMore = function () {
+        /* add here your optionnal gtag() */ };
+    (tarteaucitron.job = tarteaucitron.job || []).push('gtag');
+</script>
+<!-- /script tarte au citron -->

@@ -1,0 +1,26 @@
+---
+title: Mes réalisations
+layout: default
+permalink: /mes-realisations/
+---
+
+<section class="section scrollspy valign-wrapper" id="work">
+    <div class="container">
+        
+        <h2 class="header text_h2 center">Portfolio<br>
+            <span class="sub_heading"> Mes réalisations</span>
+        </h2>
+
+        <div class="row">
+            <!-- worklist -->
+            {%- assign works = site.works | reverse -%}
+            {%- for work in works -%}
+                <div class="col s12 m6 l4">
+                    {%- include work.html -%}
+                </div>
+            {% endfor %}
+            <!-- /worklist -->
+
+        </div>
+    </div>
+</section>
