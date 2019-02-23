@@ -251,6 +251,9 @@ function genererCitatiionRandom() {
 
         `"On considère que les neuf dixièmes du code correspondent à environ 90% du temps de développement. Les 10% restant correspondent également à 90% du temps de développement ."
              <br> — Tom Cargill`,
+        
+        `"On considère que les neuf dixièmes du code correspondent à environ 90% du temps de développement. Les 10% restant correspondent également à 90% du temps de développement ."
+        <br> — Tom Cargill`,
 
         `"Aujourd’hui, la programmation est devenue une course entre le développeur, qui s’efforce de produire de meilleures applications à l’épreuve des imbéciles et l’univers, qui s’efforce de produire de meilleurs imbéciles. Pour l’instant, l’univers a une bonne longueur d’avance ."
              <br> — Rich Cook`,
@@ -259,6 +262,8 @@ function genererCitatiionRandom() {
              <br> —  Edsger Dijkstra`,
 
         `"Un geek ne crie pas, il url."`,
+
+        `"Tu ne feras pas de mise en prod le vendredi."`,
     ];
     // La formule magique qui choisi le contenu à afficher
     var quoteRandom = quotes[Math.floor(Math.random() * quotes.length)];
