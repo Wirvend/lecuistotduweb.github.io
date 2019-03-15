@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+set -e # halt script on error
+
+# build jekyll
+# explicitely specify JEKYLL_ENV because jekyll is built & deployed by Travis and not Github pages
+JEKYLL_ENV=production bundle exec jekyll build
+
+# run htmlproofer tests on the built website
+# - ignore /en/ and /fr/ that can't be followed by htmlproofer but work correctly
+# bundle exec htmlproofer ./_site \
+#     --allow-hash-href \

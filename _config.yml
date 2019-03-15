@@ -33,7 +33,6 @@ permalink: pretty
 collections:
   works:
     output: true
-    permalink: /realisation/:title
     
 
 # Exclude from processing.
