@@ -1,3 +1,14 @@
 ---
 ---
+
+// colors
+$primary: #F44336;
+$primary-light: #f75246;
+$secondary: #2bbbad;
+
+// Import
 @import "main";
+@import "word-wrapper";
+@import "heading";
+@import "card";
+@import "contact";

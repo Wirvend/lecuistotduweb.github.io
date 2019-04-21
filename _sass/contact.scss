@@ -1,0 +1,25 @@
+#contact {
+    background-image: url("/assets/images/photo-background-contact.jpg");
+    background-position: center;
+    background-origin: content-box;
+    background-size: cover;
+    padding: 0;
+}
+
+#contact .heading {
+    color: rgba(255, 255, 255, 0.199);
+}
+
+#contact .sub_heading {
+    color: #ffffff;
+}
+
+#contact .form-contact {
+    padding: 30px;
+    border: #282828 solid 2px;
+    background: #fff;
+}
+
+#contact .btn-contact-submit {
+    margin-top: 35px;
+}

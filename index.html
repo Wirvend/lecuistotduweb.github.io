@@ -74,10 +74,12 @@ layout: default
     <section id="about" class="section scrollspy valign-wrapper">
         <div class="container">
             <div class="row">
-                <div class="col s12 center m8 l6 offset-m2 offset-l3">
-                    <h2 class="header  text_h2 ">About me<br>
+                <div class="col s12 center m8 offset-m2">
+                    <h2 class="header-content">
+                        <span class="heading">About me</span>
                         <span class="sub_heading">A propos de moi</span>
                     </h2>
+                    <span class="underline"></span>
                 </div>
             </div>
             <div class="row valign-wrapper">
@@ -105,9 +107,17 @@ layout: default
     <!--Work-->
     <section class="section scrollspy valign-wrapper" id="work">
         <div class="container">
-            <h2 class="header text_h2 center">Portfolio<br>
-                <span class="sub_heading"> Dernières réalisations</span>
-            </h2>
+
+            <div class="row">
+                <div class="col s12 center m8 offset-m2">
+                    <h2 class="header-content">
+                        <span class="heading">Portfolio</span>
+                        <span class="sub_heading">Dernières réalisations</span>
+                    </h2>
+                    <span class="underline"></span>
+                </div>
+            </div>
+
             <div class="row">
                 {%- assign works = site.works | reverse -%}
                 {%- for work in works limit: 6 -%}
@@ -116,24 +126,10 @@ layout: default
                     {%- include work.html -%}
                 </div>
                 {%- endfor -%}
-                <!-- /worklist -->
             </div>
             <div class="row center">
                 <a href="/mes-realisations" class="btn waves-effect white-text">Voir plus de réalisations</a>
             </div>
-            <!-- 
-            <!-- pagination -->
-            <!-- <ul class="pagination center"> -->
-                <!-- <li class="hide"><a href="#!"><i class="material-icons">chevron_left</i></a></li> -->
-                <!-- <li class="active"><a href="#!">1</a></li> -->
-                <!-- <li class="waves-effect"><a href="#!">2</a></li> -->
-                <!-- <li class="waves-effect"><a href="#!">3</a></li> -->
-                <!-- <li class="waves-effect "><a href="#!">4</a></li> -->
-                <!-- <li class="waves-effect"><a href="#!">5</a></li> -->
-                <!-- <li class="waves-effect"><a href="#!"><i class="material-icons">chevron_right</i></a></li> -->
-                <!-- </ul> -->
-            
-            <!-- /pagination -->
         </div>
     </section>
 
@@ -141,9 +137,13 @@ layout: default
     <section class="section valign-wrapper scrollspy" id="skill">
         <div class="container">
             <div class="row">
-                <h2 class="center header text_h2">Services<br>
-                    <span class="sub_heading">MES COMPÉTENCES</span>
-                </h2>
+                <div class="col s12 center m8 offset-m2">
+                    <h2 class="header-content">
+                        <span class="heading">Services</span>
+                        <span class="sub_heading">MES COMPÉTENCES</span>
+                    </h2>
+                    <span class="underline"></span>
+                </div>
             </div>
             <div class="row">
                 <div class="col s12 m12 l4">
@@ -178,8 +178,13 @@ layout: default
 <section class="section scrollspy valign-wrapper" id="contact">
     <div class="container">
         <!-- contact -->
-        <h2 class="header text_h2 center">contact<br>
-            <span class="sub_heading">Laissez-moi un message</span></h2>
+        <div class="col s12 center m8 offset-m2">
+            <h2 class="header-content">
+                <span class="heading">contact</span>
+                <span class="sub_heading">Laissez-moi un message</span>
+            </h2>
+            <span class="underline"></span>
+        </div>
         <div class="row">
             <div class="col l8 offset-l2  s12">
                 <div class="col s12 form-contact">
