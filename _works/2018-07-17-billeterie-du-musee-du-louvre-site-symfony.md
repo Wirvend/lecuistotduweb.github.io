@@ -1,6 +1,6 @@
 ---
 layout: work
-title: BILLETERIE DU MUSEE DU LOUVRE - Site Symfony
+title: BILLETERIE DU MUSEE DU LOUVRE
 excerpt: créer un nouveau système de réservation et de gestion des tickets avec Symfony.
 image: /assets/images/musee-du-louvre-openclassroom/thumbnail-work-musee-du-louvre-symfony.jpg
 image-alt: Image de présentation du site de la billetterie du musée du Louvre (projet openclassroom) 

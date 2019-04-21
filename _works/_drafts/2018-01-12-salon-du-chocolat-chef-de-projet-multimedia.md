@@ -1,6 +1,6 @@
 ---
 layout: work
-title: SALON DU CHOCOLAT - Chef de projet multimédia
+title: SALON DU CHOCOLAT
 excerpt: Initiez et lancez un projet Multimédia
 image: 
 image-alt: 

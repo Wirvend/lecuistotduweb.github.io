@@ -1,6 +1,6 @@
 ---
 layout: work
-title: MAISON DU ZÉRO DÉCHET - Conception Web-Design
+title: MAISON DU ZÉRO DÉCHET
 excerpt: Concevoir et produire le webdesign de la Maison du Zéro déchet
 image: /assets/images/zero-waste/maison-zero-waste-website-mockup-thumb.jpg
 image-alt: image de présentation du site Zero Waste France (projet école Aries Lyon)

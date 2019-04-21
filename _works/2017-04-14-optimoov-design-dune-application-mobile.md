@@ -1,6 +1,6 @@
 ---
 layout: work
-title: OPTIMOOV’ - Design d'une application mobile
+title: OPTIMOOV’
 excerpt: |
     Réalisation des interfaces de l’application mobile OPTIMOOV’ avec une arborescence ergonomique, clair et           intuitive.
 image: /assets/images/optimoov/mockup-app-optimoov-webdesign.jpg

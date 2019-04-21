@@ -1,6 +1,6 @@
 ---
 layout: work
-title: SECONDE CHANCE – Création d'une affiche de film
+title: SECONDE CHANCE
 excerpt: Réalisation d’une affiche de film.
 image: /assets/images/affiche-film-mockup.jpg
 image-alt: mockup de visualisation d'une affiche de film (projet école Aries Lyon)

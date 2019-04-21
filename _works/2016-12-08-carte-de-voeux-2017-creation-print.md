@@ -1,6 +1,6 @@
 ---
 layout: work
-title: CARTE DE VŒUX 2017 - Création Print
+title: CARTE DE VŒUX 2017
 excerpt: Créer une carte de vœux originale, afin que celle-ci ne soit pas qu'une simple carte et qu'elle ait une vraie utilité.
 image: /assets/images/carte-nouvelle-an-2017/carte-nouvelle-an2017-2.jpg
 image-alt: carte du nouvelle an 2017 en forme de jeux de cartes (projet école Aries Lyon)

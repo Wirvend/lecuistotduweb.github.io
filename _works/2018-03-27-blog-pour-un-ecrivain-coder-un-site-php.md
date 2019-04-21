@@ -1,6 +1,6 @@
 ---
 layout: work
-title: BLOG POUR UN ÉCRIVAIN – Coder un site PHP
+title: BLOG POUR UN ÉCRIVAIN
 excerpt: |
     Afin de valider mon projet n°3 sur le site Openclassroom , j’ai du développer un site web dynamique en PHP Orienté Objet (POO) basé sur une structure de type modèle-vue-contrôleur (MVC).
 image: /assets/images/site-blog-php-mvc-openclassroom/thumbnail-work-blog-php-mvc.jpg

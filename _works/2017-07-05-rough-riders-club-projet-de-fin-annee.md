@@ -1,6 +1,6 @@
 ---
 layout: work
-title: ROUGH riders club – projet de fin année
+title: ROUGH riders club
 excerpt: créer un nouveau système de réservation et de gestion des tickets avec Symfony.
 image: /assets/images/rough/miniature-site-web-portfolio.jpg
 image-alt: Image de présentation du site de la billetterie du musée du Louvre (projet openclassroom) 
