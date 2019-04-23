@@ -12,8 +12,8 @@ categories: [Webdesign]
 
 <p>Z&eacute;ro Waste France est une association de protection de l&rsquo;environement qui milite pour la r&eacute;duction et la gestion plus durable des d&eacute;chets. L&rsquo;association avait pour ambition de donner naissance &agrave; La Maison Z&eacute;ro d&eacute;chet, un lieu enti&egrave;rement consacr&eacute; aux d&eacute;marches antigaspillage. Le projet &eacute;tait de concevoir la maquette du site de la Maison Z&eacute;ro d&eacute;chet avec une &eacute;xperience utilisateur innovante.</p>
 
-<p style="text-align:center"><img alt="" height="799" src="/assets/images/zero-waste/maison-zero-waste-website-mockup.jpg" /></p>
+<p style="text-align:center"><img alt="image de présentation du site Zero Waste France" height="799" src="/assets/images/zero-waste/maison-zero-waste-website-mockup.jpg" /></p>
 
-<p style="text-align:center"><img alt="" height="800" src="/assets/images/zero-waste/maison-zero-waste-website-mobile-mockup2.jpg" /></p>
+<p style="text-align:center"><img alt="image de présentation du site Zero Waste France version mobile" height="800" src="/assets/images/zero-waste/maison-zero-waste-website-mobile-mockup2.jpg" /></p>
 
 <p>&nbsp;</p>

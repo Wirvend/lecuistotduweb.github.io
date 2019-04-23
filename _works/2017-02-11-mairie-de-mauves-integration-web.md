@@ -14,6 +14,6 @@ categories: [Développement Web]
 
 <p style="text-align:center"><a class="btn white-text" href="http://projet-mairie-mauves.gaetanboyron.fr">Voir le site</a></p>
 
-<p style="text-align:center"><img alt="" height="675" src="/assets/images//mairie-mauves-integration/projet-mairie-mauves-mockup.jpg" width="1200" /></p>
+<p style="text-align:center"><img alt="Image de présentation du site de la maire de Mauves  (projet école Aries Lyon)" height="675" src="/assets/images//mairie-mauves-integration/projet-mairie-mauves-mockup.jpg" width="1200" /></p>
 
 <p>&nbsp;</p>

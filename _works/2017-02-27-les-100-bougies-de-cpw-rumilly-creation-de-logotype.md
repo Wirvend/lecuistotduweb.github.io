@@ -12,6 +12,6 @@ categories: [Infographie]
 
 <p>&nbsp;</p>
 
-<p style="text-align:center"><img alt="" height="681" src="/assets/images/nestle/nestle-cpw-logo-100-ans-render.jpg" /></p>
+<p style="text-align:center"><img alt="logo crée pour les 100 ans de l'usine CPW (Neslté)" height="681" src="/assets/images/nestle/nestle-cpw-logo-100-ans-render.jpg" /></p>
 
 <p>&nbsp;</p>

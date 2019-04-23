@@ -14,6 +14,6 @@ categories: [Infographie]
 
 <p>La mission constistait &agrave; cr&eacute;er une identit&eacute; visuelle pour l&rsquo;ouverture de ce lieu atypique, utilisable sur l&rsquo;ensemble des supports de communication.</p>
 
-<p style="text-align:center"><img alt="" height="600" src="/assets/images/sweet-caroline/sweet-caroline-american-dinner-thumbnail.jpg" width="900" /></p>
+<p style="text-align:center"><img alt="Image de présentation du projet Sweet Caroline restaurant American dinner(projet école Ariel Lyon)" height="600" src="/assets/images/sweet-caroline/sweet-caroline-american-dinner-thumbnail.jpg" width="900" /></p>
 
-<p><img alt="" height="254" src="/assets/images/sweet-caroline/Free-Tri-Fold-Mockup-PSD-File.png" width="383" /><img alt="" height="254" src="/assets/images/sweet-caroline/pickup.jpg" width="383" /><img alt="" height="286" src="/assets/images/sweet-caroline/OMYBB41.png" width="381" /></p>
+<p><img alt="" height="254" src="/assets/images/sweet-caroline/Free-Tri-Fold-Mockup-PSD-File.png" width="383" /><img alt="menu carte restaurant Sweet Caroline restaurant American dinner" height="254" src="/assets/images/sweet-caroline/pickup.jpg" width="383" /><img alt="marquage vehicule Sweet Caroline restaurant American dinner" height="286" src="/assets/images/sweet-caroline/OMYBB41.png" width="381" /></p>

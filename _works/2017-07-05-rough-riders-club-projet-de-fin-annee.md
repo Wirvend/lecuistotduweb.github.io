@@ -1,9 +1,9 @@
 ---
 layout: work
 title: ROUGH riders club
-excerpt: créer un nouveau système de réservation et de gestion des tickets avec Symfony.
+excerpt: Créer un nouveau système de réservation et de gestion des tickets avec Symfony.
 image: /assets/images/rough/miniature-site-web-portfolio.jpg
-image-alt: Image de présentation du site de la billetterie du musée du Louvre (projet openclassroom) 
+image-alt: Image de présentation du projet Rough riders (PFA école Aries)
 tags: ["HTML", "CSS", "JAVASCRIPT", "PHOTOSHOP", "INDESIGN", "ILLUSTRATOR", "SASS", "ADOBE", "XD"]
 categories: [Développement Web, Infographie, Webdesign]
 ---
@@ -19,7 +19,7 @@ categories: [Développement Web, Infographie, Webdesign]
 <p style="text-align:center"><img alt="" height="800" src="/assets/images/rough/mockup-site-rough-1.png" width="1200" /></p>
 
 <p style="text-align:center">
-<img alt="" height="247" src="/assets/images/rough/carte-adherent3.png" width="350" />
+<img alt="carte adherent " height="247" src="/assets/images/rough/carte-adherent3.png" width="350" />
 &nbsp; &nbsp;
 <img alt="" height="241" src="/assets/images/rough/brainstorming-01.jpg" width="350" />&nbsp; &nbsp;<img alt="" height="247" src="/assets/images/rough/underground.jpg" width="350" />
 </p>
