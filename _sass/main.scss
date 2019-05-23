@@ -238,9 +238,23 @@ nav ul a {
     padding: 0 15px;
 }
 
-nav ul li:hover,
-nav ul li.active {
-    border-bottom: #ff0000 3px solid;
+nav ul li{position: relative;}
+nav ul li::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background-color: #F44336;
+    transform-origin: bottom right;
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+}
+
+nav ul li:hover::before {
+    transform-origin: bottom left;
+    transform: scaleX(1);
 }
 
 .side-nav {
@@ -268,6 +282,12 @@ nav ul li.active {
 
 .project-navigation {
     margin: 20px auto;
+}
+
+textarea#contact_message {
+    min-height: 120px;
+    max-height: 250px;
+    overflow: auto;
 }
 
 nav a.button-collapse {
