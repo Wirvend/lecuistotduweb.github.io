@@ -240,3 +240,6 @@
 
     }); // end of document ready
 })(jQuery); // end of jQuery name space
+
+//init wow.js
+new WOW().init();
