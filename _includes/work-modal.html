@@ -1,0 +1,28 @@
+<div id="work{{ forloop.index }}" class="modal work-modal">
+    <div class="modal-content">
+        <div class="row">
+            <div class="col">
+                <div class="card-modal-image">
+                    {% if work.image %}
+                    <img src="{{ work.image }}" class="activator responsive-img" alt="{{ work.image-alt }}">
+                    {% else %}
+                    <img src="https://via.placeholder.com/1280x720" class="activator responsive-img" alt="">
+                    {% endif %}
+                </div>
+            </div>   
+            <div class="col">
+                <h3 class="card-modal-title grey-text text-darken-4">{{ work.title }}<i class="mdi-navigation-close right"></i></h3>
+                {{ work.excerpt }}
+                <ul class="tag-list">Tags :
+                    {% for tag in work.tags %}
+                    <li class="tag red white-text">{{ tag }}</li>
+                    {% endfor %}
+                </ul>
+                <p><a href="{{ work.url }}" class="red-text">Voir le Projet</a></p>
+            </div>     
+        </div>   
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-close waves-effect waves-green btn">Fermer</a>
+    </div>
+  </div>

@@ -1,40 +1,65 @@
-.card-content a {
-    color: #545454;
+.work {
+
+    &.card {
+        border-radius: 5px;
+        overflow: hidden;
+        transition: .3s all;
+    }
+    &.card:hover {
+        transform: scale(1.03);
+        transition: .3s all;
+    }
+
+    .card-content a {
+        color: #545454;
+    }
+    
+    .card-title {
+        margin: 0;
+        font-size: 2em;
+        font-weight: 700;
+    }
+    
+    .card-content a:hover {
+        color: #545454;
+    }
+    
+    .card-avatar .waves-effect {
+        text-align: center;
+        margin-top: 20px;
+    }
+    
+    .card-avatar img {
+        height: 150px;
+        width: 150px;
+        border-radius: 75px;
+    }
+    
+    .card-avatar .card-content {
+        text-align: center;
+    }
+    
+    .card .card-content p {
+        margin: 15px 0px;
+    }
+    
+    .card-avatar .card-content i {
+        font-size: 1.5rem;
+    }
+    
+    .card-avatar .card-content .card-title {
+        line-height: 30px !important;
+    }
+    
 }
 
-.card-title {
-    margin: 0;
-}
-
-.card-content a:hover {
-    color: #545454;
-}
-
-.card-avatar .waves-effect {
-    text-align: center;
-    margin-top: 20px;
-}
-
-.card-avatar img {
-    height: 150px;
-    width: 150px;
-    border-radius: 75px;
-}
-
-.card-avatar .card-content {
-    text-align: center;
-}
-
-.card .card-content p {
-    margin: 15px 0px;
-}
-
-.card-avatar .card-content i {
-    font-size: 1.5rem;
-}
-
-.card-avatar .card-content .card-title {
-    line-height: 30px !important;
+.work-modal {
+    .card-modal-image img {
+        border-radius: 5px;
+    }
+    .card-modal-title {
+        margin: 15px auto;
+    }
 }
 
 .tag {
