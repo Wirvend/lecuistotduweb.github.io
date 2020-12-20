@@ -13,26 +13,16 @@ layout: default
         <li class="sidenav-close items"><a href="#skill" class="">Services</a></li>
         <li class="sidenav-close items"><a href="#contact" class="">Contact</a></li>
         <li class="sidenav-close items">
-            <ul class="list-btn-social">
-                <li>
-                    <a class="waves-effect waves-light social-icon github btn" href="https://www.linkedin.com/in/ga%C3%ABtan-boyron-webdesigner/"
-                        target="blank">
-                        <i class="fa fa-linkedin white-text"></i>
-                    </a>
-                </li>
-                <li>
-                    <a class="waves-effect waves-light social-icon github btn" href="https://github.com/LeCuistotduWeb"
-                        target="blank">
-                        <i class="fa fa-github white-text"></i>
-                    </a>
-                </li>
-                <li>
-                    <a class="waves-effect waves-light social-icon github btn" href="https://www.facebook.com/LeCuistotDuWeb/"
-                        target="blank">
-                        <i class="fa fa-facebook white-text"></i>
-                    </a>
-                </li>
-            </ul>
+           <a class="waves-effect waves-light social-icon github btn" href="{{site.github_url}}"
+                target="blank">
+                <i class="fa fa-github white-text"></i>
+            </a>
+        </li>
+        <li class="sidenav-close items">
+            <a class="waves-effect waves-light social-icon github btn" href="{{site.linkedin_url}}"
+                target="blank">
+                <i class="fa fa-linkedin white-text"></i>
+            </a>
         </li>
     </ul>
     <div class="navbar-fixed ">
@@ -210,10 +200,23 @@ layout: default
                                 <textarea id="contact_message" name="contact[message]" required="required" class="materialize-textarea form-control"></textarea>
                             </div>
                         </div>
-                        <input type="submit" value="Envoyer" class="btn btn-contact-submit waves-effect waves-light red darken-1 right">
+                        <input 
+                            type="submit" 
+                            value="Envoyer" 
+                            data-sitekey="6LeEbOEUAAAAAOSEEjQUo55Qyg0jw1u_RU3NH9ty" 
+                            data-action='submit' 
+                            class="btn btn-contact-submit waves-effect waves-light red darken-1 right g-recaptcha"
+                            >
                     </form>
                 </div>
             </div>
         </div>
     </div>
 </section>
+
+
+<script src="https://www.google.com/recaptcha/api.js"></script>
+<script>
+    //captcha form
+    var form = document.getElementById("contactForm");
+ </script>
