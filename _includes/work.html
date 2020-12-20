@@ -1,5 +1,5 @@
 <div class="work card hoverable project">
-    <a href="#work{{ forloop.index }}" class="modal-trigger">
+    <a href="{{ work.url | relative_url }}" class="">
         <div class="card-image waves-effect waves-block waves-light">
             {% if work.image %}
             <img src="{{ work.image | relative_url }}" class="activator responsive-img" alt="{{ work.image-alt }}">
