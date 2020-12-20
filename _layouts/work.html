@@ -33,11 +33,11 @@ layout: default
 
     <div class="row">
         {% if page.previous.url %}
-            <button class="btn left col s12 m5 l3 project-navigation"><a href="{{ page.previous.url }}" class="white-text">Projet
+            <button class="btn left col s12 m5 l3 project-navigation"><a href="{{ page.previous.url | relative_url }}" class="white-text">Projet
             précédent</a></button>
         {% endif %}
         {% if page.next.url %}
-            <button class="btn right col s12 m5 l3 project-navigation"><a href="{{ page.next.url }}" class="white-text">Projet
+            <button class="btn right col s12 m5 l3 project-navigation"><a href="{{ page.next.url | relative_url }}" class="white-text">Projet
             suivant</a></button>
         {% endif %}
     </div>

@@ -2,9 +2,9 @@
     <a href="#work{{ forloop.index }}" class="modal-trigger">
         <div class="card-image waves-effect waves-block waves-light">
             {% if work.image %}
-            <img src="{{ work.image }}" class="activator responsive-img" alt="{{ work.image-alt }}">
+            <img src="{{ work.image | relative_url }}" class="activator responsive-img" alt="{{ work.image-alt }}">
             {% else %}
-            <img src="https://via.placeholder.com/1280x720" class="activator responsive-img" alt="">
+            <img src="https://via.placeholder.com/1280x720" class="activator responsive-img" alt="{{ work.image-alt }}">
             {% endif %}
         </div>
     </a>

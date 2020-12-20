@@ -4,7 +4,7 @@
             <div class="col">
                 <div class="card-modal-image">
                     {% if work.image %}
-                    <img src="{{ work.image }}" class="activator responsive-img" alt="{{ work.image-alt }}">
+                    <img src="{{ work.image | relative_url }}" class="activator responsive-img" alt="{{ work.image-alt }}">
                     {% else %}
                     <img src="https://via.placeholder.com/1280x720" class="activator responsive-img" alt="">
                     {% endif %}
@@ -18,7 +18,7 @@
                     <li class="tag red white-text">{{ tag }}</li>
                     {% endfor %}
                 </ul>
-                <p><a href="{{ work.url }}" class="red-text">Voir le Projet</a></p>
+                <p><a href="{{ work.url | relative_url }}" class="red-text">Voir le Projet</a></p>
             </div>     
         </div>   
     </div>
