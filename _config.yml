@@ -17,8 +17,8 @@ title: LeCuistotduWeb
 email: gaetan.boyron@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Développeur Web - Conception et développement d'interfaces Web.
-baseurl: "lecuistotduweb.io" # the subpath of your site, e.g. /blog
-url:  "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "lecuistotduweb.github.io" # the subpath of your site, e.g. /blog
+url:  "https://lecuistotduweb.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: BoyronGaetan
 github_username:  LeCuistotduWeb
 

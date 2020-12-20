@@ -40,6 +40,6 @@ function randomQuote() {
 }
 
 // 
-setInterval(() => {
+// setInterval(() => {
     randomQuote();
-}, 3500);
+// }, 3500);
