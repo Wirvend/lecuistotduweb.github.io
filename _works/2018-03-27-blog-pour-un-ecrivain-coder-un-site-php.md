@@ -17,6 +17,4 @@ categories: [Développement Web]
 
 <p style="text-align:justify"><strong>Objectifs :</strong> D&eacute;velopperer&nbsp;une application de blog simple en PHP et avec une base de donn&eacute;es MySQL. Elle doit fournir une interface frontend (lecture des billets) et une interface backend (administration des billets pour l&rsquo;&eacute;criture). On doit y retrouver tous les &eacute;l&eacute;ments d&rsquo;un CRUD :</p>
 
-<p style="text-align:center"><a class="btn white-text" href="http://oc-exercice-blog-php.gaetanboyron.fr" target="_blank">Voir le site</a></p>
-
-<p style="text-align:center"><img alt="aperçu de la réalisation du blog en php poo mvc " height="800" src="/assets/images/site-blog-php-mvc-openclassroom/miniature-blog-php-poo-mvc.jpg" /></p>
+<p style="text-align:center"><img alt="aperçu de la réalisation du blog en php poo mvc " height="800" src="{{ 'assets/images/site-blog-php-mvc-openclassroom/miniature-blog-php-poo-mvc.jpg' | relative_url }}" /></p>

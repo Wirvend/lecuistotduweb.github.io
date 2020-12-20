@@ -14,14 +14,12 @@ categories: [Développement Web, Infographie, Webdesign]
 
 <p>La tonalit&eacute;&nbsp;<strong>Rock n Roll</strong>&nbsp;mise en avant permet de rappeler le cot&eacute; urbain et underground de ces disciplines.</p>
 
-<p style="text-align:center"><a class="btn white-text" href="http://rough-skatepark.gaetanboyron.fr" onclick="window.open(this.href, '', 'resizable=no,status=no,location=no,toolbar=no,menubar=no,fullscreen=no,scrollbars=no,dependent=no'); return false;">Voir le site</a></p>
-
-<p style="text-align:center"><img alt="" height="800" src="/assets/images/rough/mockup-site-rough-1.png" width="1200" /></p>
+<p style="text-align:center"><img alt="" height="800" src="{{ 'assets/images/rough/mockup-site-rough-1.png' | relative_url }}" width="1200" /></p>
 
 <p style="text-align:center">
-<img alt="carte adherent " height="247" src="/assets/images/rough/carte-adherent3.png" width="350" />
+<img alt="carte adherent " height="247" src="{{ 'assets/images/rough/carte-adherent3.png' | relative_url }}" width="350" />
 &nbsp; &nbsp;
-<img alt="" height="241" src="/assets/images/rough/brainstorming-01.jpg" width="350" />&nbsp; &nbsp;<img alt="" height="247" src="/assets/images/rough/underground.jpg" width="350" />
+<img alt="" height="241" src="{{ 'assets/images/rough/brainstorming-01.jpg' | relative_url }}" width="350" />&nbsp; &nbsp;<img alt="" height="247" src="{{ 'assets/images/rough/underground.jpg' | relative_url }}" width="350" />
 </p>
 
-<p style="text-align:center"><img alt="" height="3358" src="/assets/images/rough/desktop.png" width="1200" /></p>
+<p style="text-align:center"><img alt="" height="3358" src="{{ 'assets/images/rough/desktop.png' | relative_url }}" width="1200" /></p>

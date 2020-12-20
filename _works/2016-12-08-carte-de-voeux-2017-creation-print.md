@@ -12,6 +12,6 @@ categories: [Infographie]
 
 <p>J&rsquo;ai d&eacute;velopp&eacute; l&rsquo;id&eacute;e d&rsquo;un jeu de 32 cartes &agrave; jouer afin de lui rendre ce cot&eacute; utile et ludique. J&rsquo;ai &eacute;galement inscrit sur chaque carte une petite citation positive afin de d&eacute;marrer l&rsquo;ann&eacute;e du bon pied ! Cette ann&eacute;e, ma carte n&rsquo;a pas fini &agrave; la poubelle comme toutes les autres !</p>
 
-<p style="text-align:center"><img alt="carte du nouvelle an 2017 en forme de jeux de cartes (projet école Aries Lyon)" height="600" src="/assets/images/carte-nouvelle-an-2017/carte-nouvelle-an2017-2.jpg" /></p>
+<p style="text-align:center"><img alt="carte du nouvelle an 2017 en forme de jeux de cartes (projet école Aries Lyon)" height="600" src="{{ 'assets/images/carte-nouvelle-an-2017/carte-nouvelle-an2017-2.jpg' | relative_url }}" /></p>
 
 <p>&nbsp;</p>

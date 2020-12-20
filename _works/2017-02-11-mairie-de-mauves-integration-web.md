@@ -12,8 +12,6 @@ categories: [Développement Web]
 
 <p>J&rsquo;ai donc d&ucirc; int&eacute;grer la maquette du site de la ville de Mauves, fournie par le professeur. Le resultat final devait parfaitement correspondre au spport donn&eacute;, et une version mobile devait &ecirc;tre adapt&eacute;e. J&#39;ai utils&eacute; pour l&#39;integration du HTML5 en respectant les bonnes conventions SEO, du pr&eacute;prossesseur SASS et du javascript avec la biblioth&egrave;que Jquery.</p>
 
-<p style="text-align:center"><a class="btn white-text" href="http://projet-mairie-mauves.gaetanboyron.fr">Voir le site</a></p>
-
-<p style="text-align:center"><img alt="Image de présentation du site de la maire de Mauves  (projet école Aries Lyon)" height="675" src="/assets/images//mairie-mauves-integration/projet-mairie-mauves-mockup.jpg" width="1200" /></p>
+<p style="text-align:center"><img alt="Image de présentation du site de la maire de Mauves  (projet école Aries Lyon)" height="675" src="{{ 'assets/images//mairie-mauves-integration/projet-mairie-mauves-mockup.jpg' | relative_url }}" width="1200" /></p>
 
 <p>&nbsp;</p>
