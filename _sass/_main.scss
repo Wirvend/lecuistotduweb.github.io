@@ -315,6 +315,22 @@ footer.page-footer {
     .downlaod-book {
         margin-top: 10px;
     }
+
+    .work-container {
+        padding: 50px 0 0;
+
+        .header-content {
+            .heading {
+                display: none;
+            }
+        }
+    }
+    .header-page {
+        .underline {
+            margin: 0 auto 30px;
+        }
+    }
+    
 }
 
 /***********************

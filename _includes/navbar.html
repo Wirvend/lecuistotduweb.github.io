@@ -1,10 +1,10 @@
 <!--Navigation-->
 <div class="container-fluid">
     <ul id="mobile-menu" class="side-nav">
-        <li class="sidenav-close items"><a href="#about" class="">À propos</a></li>
-        <li class="sidenav-close items"><a href="#work" class="">Réalisations</a></li>
-        <li class="sidenav-close items"><a href="#skill" class="">Services</a></li>
-        <li class="sidenav-close items"><a href="#contact" class="">Contact</a></li>
+        <li class="sidenav-close items"><a href="{{ site.url }}#about" class="">À propos</a></li>
+        <li class="sidenav-close items"><a href="{{ 'works' | relative_url }}" class="">Réalisations</a></li>
+        <li class="sidenav-close items"><a href="{{ site.url }}#skill" class="">Services</a></li>
+        <li class="sidenav-close items"><a href="{{ site.url }}#contact" class="">Contact</a></li>
         <li class="sidenav-close items">
             <ul class="list-btn-social">
                 <li>
@@ -17,12 +17,6 @@
                     <a class="waves-effect waves-light social-icon github btn" href="https://github.com/LeCuistotduWeb"
                         target="blank">
                         <i class="fa fa-github white-text"></i>
-                    </a>
-                </li>
-                <li>
-                    <a class="waves-effect waves-light social-icon github btn" href="https://www.facebook.com/LeCuistotDuWeb/"
-                        target="blank">
-                        <i class="fa fa-facebook white-text"></i>
                     </a>
                 </li>
             </ul>
@@ -40,7 +34,7 @@
                     </a>
                     <ul class="right hide-on-med-and-down">
                         <li class="sidenav-close"><a href="{{ site.url }}#about" class="white-text">À propos</a></li>
-                        <li class="sidenav-close"><a href="{{ site.url }}#work" class="white-text">Réalisations</a></li>
+                        <li class="sidenav-close"><a href="{{ 'works' | relative_url }}" class="white-text">Réalisations</a></li>
                         <li class="sidenav-close"><a href="{{ site.url }}#skill" class="white-text">Services</a></li>
                         <li class="sidenav-close"><a href="{{ site.url }}#contact" class="white-text">Contact</a></li>
                     </ul>

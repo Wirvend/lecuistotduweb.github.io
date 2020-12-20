@@ -74,7 +74,7 @@ a:hover {
   /* max-height: 864px; */
   position: relative;
   background-color: #545454;
-  background-image: url("/assets/images/background-cuistot-du-web.jpg");
+  background-image: url("assets/images/background-cuistot-du-web.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
@@ -263,7 +263,15 @@ footer.page-footer {
 
   .downlaod-cv,
   .downlaod-book {
-    margin-top: 10px; } }
+    margin-top: 10px; }
+
+  .work-container {
+    padding: 50px 0 0; }
+    .work-container .header-content .heading {
+      display: none; }
+
+  .header-page .underline {
+    margin: 0 auto 30px; } }
 /***********************
 /* Media queries < 600
 /***********************/
