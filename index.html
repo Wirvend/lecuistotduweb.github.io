@@ -39,7 +39,7 @@ layout: default
         <nav id="nav_home" class="">
             <div class="nav-wrapper">
                 <div class="container">
-                    <a href="/" id="logo-container" class="brand-logo valign-wrapper left"><img src="/assets/images/logo/lecuistotduweb-logo-white.png"
+                    <a href="/" id="logo-container" class="brand-logo valign-wrapper left"><img src="{{ 'assets/images/logo/lecuistotduweb-logo-white.png' | relative_url }}"
                             alt="logo le cuistot du web"></a>
                     <a href="#" id="menu-icon" data-target="mobile-menu" class="button-collapse sidenav-trigger right"><i
                             class="material-icons">menu</i></a>
@@ -85,8 +85,8 @@ layout: default
             <div class="row valign-wrapper">
                 <div class="col s12 m6 l6 hide-on-small-only">
                     <div class="img-duo_content">
-                        <img src="/assets/images/gaetan-boyron-photo.jpg" alt="" class="img-duo_item wow fadeIn" width="350">
-                        <img src="/assets/images/gaetan-boyron-profile.jpg" alt="" class="img-duo_item-up wow slideInRight" width="350">
+                        <img src="{{ 'assets/images/gaetan-boyron-photo.jpg' | relative_url }}" alt="" class="img-duo_item wow fadeIn" width="350">
+                        <img src="{{ 'assets/images/gaetan-boyron-profile.jpg' | relative_url }}" alt="" class="img-duo_item-up wow slideInRight" width="350">
                     </div>
                 </div>
                 <div class="col s12 m6 l6">
@@ -96,7 +96,7 @@ layout: default
 
                     <p class="text-justify"> Toujours en quête de nouvelles compétences et de projets, j’ai suivi une première année de formation Web Designer au sein de l’Ecole ARIES de Lyon. J’ai ensuite décidé de poursuivre mon cursus en développement Web à travers la plateforme Openclassrooms.
                     </p>
-                    <a href="/assets/pdf/cv-gaetan-boyron.pdf" target="_blank" class="downlaod-cv btn col s12 l5 waves-effect waves-light white-text">Mon CV</a>
+                    <a href="{{ 'assets/pdf/cv-gaetan-boyron.pdf' | relative_url }}" target="_blank" class="downlaod-cv btn col s12 l5 waves-effect waves-light white-text">Mon CV</a>
                 </div>
             </div>
         </div>
@@ -126,7 +126,7 @@ layout: default
                 {%- endfor -%}
             </div>
             <div class="row center">
-                <a href="/works" class="btn waves-effect white-text">Voir plus de réalisations</a>
+                <a href="{{ 'works' | relative_url }}" class="btn waves-effect white-text">Voir plus de réalisations</a>
             </div>
         </div>
     </section>
